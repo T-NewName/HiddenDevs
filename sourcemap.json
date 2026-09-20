@@ -1,0 +1,2612 @@
+{
+  "name": "game",
+  "className": "DataModel",
+  "children": [
+    {
+      "name": "ReplicatedStorage",
+      "className": "ReplicatedStorage",
+      "pluginManaged": true,
+      "children": [
+        {
+          "name": "Packages",
+          "className": "Folder",
+          "pluginManaged": true,
+          "children": [
+            {
+              "name": "Knit",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/Knit.luau"
+              ]
+            },
+            {
+              "name": "Trove",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/Trove.luau"
+              ]
+            },
+            {
+              "name": "_Index",
+              "className": "Folder",
+              "pluginManaged": true,
+              "children": [
+                {
+                  "name": "evaera_promise@4.0.0",
+                  "className": "Folder",
+                  "pluginManaged": true,
+                  "children": [
+                    {
+                      "name": "promise",
+                      "className": "Folder",
+                      "pluginManaged": true,
+                      "children": [
+                        {
+                          "name": "lib",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/lib/init.luau"
+                          ],
+                          "children": [
+                            {
+                              "name": "init.spec",
+                              "className": "ModuleScript",
+                              "pluginManaged": true,
+                              "filePaths": [
+                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/lib/init.spec.luau"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "modules",
+                          "className": "Folder",
+                          "pluginManaged": true,
+                          "children": [
+                            {
+                              "name": "testez",
+                              "className": "Folder",
+                              "pluginManaged": true,
+                              "children": [
+                                {
+                                  "name": "modules",
+                                  "className": "Folder",
+                                  "pluginManaged": true,
+                                  "children": [
+                                    {
+                                      "name": "lemur",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/init.luau"
+                                      ],
+                                      "children": [
+                                        {
+                                          "name": "lib",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/init.luau"
+                                          ],
+                                          "children": [
+                                            {
+                                              "name": "assign",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/assign.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "baste",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/baste.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "createEnum",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/createEnum.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "createEnumGroup",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/createEnumGroup.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "createEnumGroup_spec",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/createEnumGroup_spec.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "createEnum_spec",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/createEnum_spec.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "createEnvironment",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/createEnvironment.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "createSettings",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/createSettings.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "createSettings_spec",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/createSettings_spec.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "Enum",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/init.luau"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "name": "ConnectionState",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/ConnectionState.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "CreatorType",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/CreatorType.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "DataStoreRequestType",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/DataStoreRequestType.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "EasingDirection",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/EasingDirection.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "EasingStyle",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/EasingStyle.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "FillDirection",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/FillDirection.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Font",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/Font.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "HorizontalAlignment",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/HorizontalAlignment.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "HttpContentType",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/HttpContentType.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "InfoType",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/InfoType.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "KeyCode",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/KeyCode.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "MouseBehavior",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/MouseBehavior.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Platform",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/Platform.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "PlaybackState",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/PlaybackState.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ScaleType",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/ScaleType.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ScrollBarInset",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/ScrollBarInset.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ScrollingDirection",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/ScrollingDirection.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "SizeConstraint",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/SizeConstraint.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "SortOrder",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/SortOrder.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "TextTruncate",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/TextTruncate.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "TextXAlignment",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/TextXAlignment.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "TextYAlignment",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/TextYAlignment.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ThumbnailSize",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/ThumbnailSize.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ThumbnailType",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/ThumbnailType.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UserInputType",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/UserInputType.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "VerticalAlignment",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/VerticalAlignment.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "VerticalScrollBarPosition",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/VerticalScrollBarPosition.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "VirtualInputMode",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/VirtualInputMode.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ZIndexBehavior",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Enum/ZIndexBehavior.luau"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "fs",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/fs.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "fs_spec",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/fs_spec.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "functions",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/functions/init.luau"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "name": "settings",
+                                                  "className": "Folder",
+                                                  "pluginManaged": true,
+                                                  "children": [
+                                                    {
+                                                      "name": "RenderSettings",
+                                                      "className": "ModuleScript",
+                                                      "pluginManaged": true,
+                                                      "filePaths": [
+                                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/functions/settings/RenderSettings.luau"
+                                                      ]
+                                                    },
+                                                    {
+                                                      "name": "RenderSettings_spec",
+                                                      "className": "ModuleScript",
+                                                      "pluginManaged": true,
+                                                      "filePaths": [
+                                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/functions/settings/RenderSettings_spec.luau"
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "tick",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/functions/tick.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "tick_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/functions/tick_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "typeof",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/functions/typeof.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "typeof_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/functions/typeof_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "warn",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/functions/warn.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "warn_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/functions/warn_spec.luau"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Habitat",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Habitat.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "init_spec",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/init_spec.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "Instance",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Instance.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "InstanceProperty",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/InstanceProperty.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "instances",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/init.luau"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "name": "AnalyticsService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/AnalyticsService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "AnalyticsService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/AnalyticsService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "BaseInstance",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/BaseInstance.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "BaseInstance_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/BaseInstance_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "BindableEvent",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/BindableEvent.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "BindableEvent_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/BindableEvent_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "BoolValue",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/BoolValue.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "BoolValue_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/BoolValue_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Camera",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Camera.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Camera_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Camera_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Configuration",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Configuration.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Configuration_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Configuration_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ContentProvider",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ContentProvider.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ContentProvider_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ContentProvider_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ContextActionService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ContextActionService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ContextActionService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ContextActionService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "CoreGui",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/CoreGui.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "CoreGui_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/CoreGui_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "CorePackages",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/CorePackages.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "CorePackages_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/CorePackages_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Folder",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Folder.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Folder_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Folder_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Frame",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Frame.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Frame_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Frame_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Game",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Game.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Game_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Game_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "GuiButton",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/GuiButton.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "GuiButton_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/GuiButton_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "GuiObject",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/GuiObject.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "GuiObject_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/GuiObject_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "GuiService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/GuiService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "GuiService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/GuiService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "HttpRbxApiService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/HttpRbxApiService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "HttpRbxApiService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/HttpRbxApiService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "HttpService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/HttpService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "HttpService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/HttpService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Humanoid",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Humanoid.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Humanoid_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Humanoid_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ImageButton",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ImageButton.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ImageButton_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ImageButton_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ImageLabel",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ImageLabel.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ImageLabel_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ImageLabel_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "InsertService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/InsertService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "InsertService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/InsertService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "IntValue",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/IntValue.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "IntValue_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/IntValue_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "LocalizationService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/LocalizationService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "LocalizationService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/LocalizationService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "LocalizationTable",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/LocalizationTable.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "LocalizationTable_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/LocalizationTable_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "LocalScript",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/LocalScript.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "LocalScript_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/LocalScript_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "MarketplaceService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/MarketplaceService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "MarketplaceService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/MarketplaceService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Model",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Model.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Model_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Model_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ModuleScript",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ModuleScript.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ModuleScript_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ModuleScript_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "NotificationService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/NotificationService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "NotificationService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/NotificationService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "NumberValue",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/NumberValue.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "NumberValue_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/NumberValue_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ObjectValue",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ObjectValue.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ObjectValue_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ObjectValue_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ParticleEffect",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ParticleEffect.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ParticleEffect_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ParticleEffect_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Player",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Player.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Players",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Players.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Players_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Players_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Player_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Player_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ReplicatedFirst",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ReplicatedFirst.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ReplicatedFirst_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ReplicatedFirst_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ReplicatedStorage",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ReplicatedStorage.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ReplicatedStorage_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ReplicatedStorage_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "RunService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/RunService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "RunService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/RunService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ScreenGui",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ScreenGui.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ScreenGui_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ScreenGui_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Script",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Script.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Script_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Script_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ScrollingFrame",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ScrollingFrame.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ScrollingFrame_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ScrollingFrame_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ServerScriptService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ServerScriptService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ServerScriptService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ServerScriptService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ServerStorage",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ServerStorage.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "ServerStorage_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/ServerStorage_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "StarterCharacterScripts",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/StarterCharacterScripts.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "StarterCharacterScripts_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/StarterCharacterScripts_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "StarterPlayer",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/StarterPlayer.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "StarterPlayerScripts",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/StarterPlayerScripts.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "StarterPlayerScripts_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/StarterPlayerScripts_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "StarterPlayer_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/StarterPlayer_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Stats",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Stats.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Stats_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Stats_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "StringValue",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/StringValue.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "StringValue_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/StringValue_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "TestService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/TestService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "TestService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/TestService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "TextButton",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/TextButton.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "TextButton_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/TextButton_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "TextLabel",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/TextLabel.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "TextLabel_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/TextLabel_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "TextService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/TextService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "TextService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/TextService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "TweenService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/TweenService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "TweenService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/TweenService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UIGridStyleLayout",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/UIGridStyleLayout.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UIGridStyleLayout_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/UIGridStyleLayout_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UIListLayout",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/UIListLayout.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UIListLayout_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/UIListLayout_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UIPadding",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/UIPadding.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UIPadding_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/UIPadding_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UITextSizeConstraint",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/UITextSizeConstraint.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UITextSizeContstraint_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/UITextSizeContstraint_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UserInputService",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/UserInputService.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UserInputService_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/UserInputService_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "VirtualInputManager",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/VirtualInputManager.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "VirtualInputManager_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/VirtualInputManager_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Workspace",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Workspace.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Workspace_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/instances/Workspace_spec.luau"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Instance_spec",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Instance_spec.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "json",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/json.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "libs",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/libs/init.luau"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "name": "bit32",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/libs/bit32.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "bit32_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/libs/bit32_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "math",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/libs/math.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "math_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/libs/math_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "string",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/libs/string.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "string_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/libs/string_spec.luau"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "Signal",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Signal.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "Signal_spec",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/Signal_spec.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "taskFunctions",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/taskFunctions/init.luau"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "name": "delay",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/taskFunctions/delay.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "delay_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/taskFunctions/delay_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "spawn",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/taskFunctions/spawn.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "spawn_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/taskFunctions/spawn_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "wait",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/taskFunctions/wait.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "wait_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/taskFunctions/wait_spec.luau"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "TaskScheduler",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/TaskScheduler.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "typeKey",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/typeKey.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "types",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/types/init.luau"
+                                              ],
+                                              "children": [
+                                                {
+                                                  "name": "Color3",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/types/Color3.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Color3_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/types/Color3_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Rect",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/types/Rect.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Rect_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/types/Rect_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UDim",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/types/UDim.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UDim2",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/types/UDim2.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UDim2_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/types/UDim2_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "UDim_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/types/UDim_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Vector2",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/types/Vector2.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Vector2_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/types/Vector2_spec.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Vector3",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/types/Vector3.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "Vector3_spec",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/types/Vector3_spec.luau"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "validateType",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/validateType.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "validateType_spec",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/lib/validateType_spec.luau"
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "spec",
+                                          "className": "Folder",
+                                          "pluginManaged": true,
+                                          "children": [
+                                            {
+                                              "name": "load_spec",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/spec/load_spec.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "require",
+                                              "className": "Folder",
+                                              "pluginManaged": true,
+                                              "children": [
+                                                {
+                                                  "name": "a",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/spec/require/a.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "b",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/spec/require/b.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "bar",
+                                                  "className": "Folder",
+                                                  "pluginManaged": true,
+                                                  "children": [
+                                                    {
+                                                      "name": "baz",
+                                                      "className": "ModuleScript",
+                                                      "pluginManaged": true,
+                                                      "filePaths": [
+                                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/spec/require/bar/baz.luau"
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "cacheme",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/spec/require/cacheme.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "foo",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/spec/require/foo.luau"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "require_spec",
+                                              "className": "ModuleScript",
+                                              "pluginManaged": true,
+                                              "filePaths": [
+                                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/spec/require_spec.luau"
+                                              ]
+                                            },
+                                            {
+                                              "name": "test-project",
+                                              "className": "Folder",
+                                              "pluginManaged": true,
+                                              "children": [
+                                                {
+                                                  "name": "bar",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/spec/test-project/bar.luau"
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "normal-folder",
+                                                  "className": "Folder",
+                                                  "pluginManaged": true,
+                                                  "children": [
+                                                    {
+                                                      "name": "ack",
+                                                      "className": "ModuleScript",
+                                                      "pluginManaged": true,
+                                                      "filePaths": [
+                                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/spec/test-project/normal-folder/ack.luau"
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "usurp",
+                                                  "className": "ModuleScript",
+                                                  "pluginManaged": true,
+                                                  "filePaths": [
+                                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/spec/test-project/usurp/init.luau"
+                                                  ],
+                                                  "children": [
+                                                    {
+                                                      "name": "foo",
+                                                      "className": "ModuleScript",
+                                                      "pluginManaged": true,
+                                                      "filePaths": [
+                                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/modules/lemur/spec/test-project/usurp/foo.luau"
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "src",
+                                  "className": "ModuleScript",
+                                  "pluginManaged": true,
+                                  "filePaths": [
+                                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/init.luau"
+                                  ],
+                                  "children": [
+                                    {
+                                      "name": "Context",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/Context.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "Expectation",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/Expectation.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "LifecycleHooks",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/LifecycleHooks.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "Reporters",
+                                      "className": "Folder",
+                                      "pluginManaged": true,
+                                      "children": [
+                                        {
+                                          "name": "TeamCityReporter",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/Reporters/TeamCityReporter.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "TextReporter",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/Reporters/TextReporter.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "TextReporterQuiet",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/Reporters/TextReporterQuiet.luau"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "TestBootstrap",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/TestBootstrap.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "TestEnum",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/TestEnum.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "TestPlan",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/TestPlan.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "TestPlanner",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/TestPlanner.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "TestResults",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/TestResults.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "TestRunner",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/TestRunner.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "TestSession",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/src/TestSession.luau"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "test",
+                                  "className": "Folder",
+                                  "pluginManaged": true,
+                                  "children": [
+                                    {
+                                      "name": "lemur",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/test/lemur.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "runner",
+                                      "className": "Script",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/test/runner.server.luau"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "testez-cli",
+                                  "className": "Folder",
+                                  "pluginManaged": true,
+                                  "children": [
+                                    {
+                                      "name": "src",
+                                      "className": "Folder",
+                                      "pluginManaged": true,
+                                      "children": [
+                                        {
+                                          "name": "lemur-entry",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/testez-cli/src/lemur-entry.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "test-runner",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/testez-cli/src/test-runner.luau"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "tests",
+                                  "className": "Folder",
+                                  "pluginManaged": true,
+                                  "children": [
+                                    {
+                                      "name": "api",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/api.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "Context",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/Context.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "Expectation",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/Expectation.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "failing",
+                                      "className": "Folder",
+                                      "pluginManaged": true,
+                                      "children": [
+                                        {
+                                          "name": "duplicateDescribe.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/failing/duplicateDescribe.spec.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "duplicateIt.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/failing/duplicateIt.spec.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "error.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/failing/error.spec.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "fail.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/failing/fail.spec.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "planning.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/failing/planning.spec.luau"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "lifecycleHooks",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/lifecycleHooks.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "passing",
+                                      "className": "Folder",
+                                      "pluginManaged": true,
+                                      "children": [
+                                        {
+                                          "name": "context.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/passing/context.spec.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "describeAndContext.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/passing/describeAndContext.spec.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "empty.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/passing/empty.spec.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "expect.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/passing/expect.spec.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "focus.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/passing/focus.spec.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "focusAndSkip.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/passing/focusAndSkip.spec.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "nestedContext.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/passing/nestedContext.spec.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "skip.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/passing/skip.spec.luau"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "planner",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/planner.luau"
+                                      ]
+                                    },
+                                    {
+                                      "name": "planning",
+                                      "className": "Folder",
+                                      "pluginManaged": true,
+                                      "children": [
+                                        {
+                                          "name": "a.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/planning/a.spec.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "b.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/planning/b.spec.luau"
+                                          ]
+                                        },
+                                        {
+                                          "name": "d.spec",
+                                          "className": "ModuleScript",
+                                          "pluginManaged": true,
+                                          "filePaths": [
+                                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/planning/d.spec.luau"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "specTests",
+                                      "className": "ModuleScript",
+                                      "pluginManaged": true,
+                                      "filePaths": [
+                                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/modules/testez/tests/specTests.luau"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "runTests",
+                          "className": "Script",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/runTests.server.luau"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "sleitnick_comm@1.0.1",
+                  "className": "Folder",
+                  "pluginManaged": true,
+                  "children": [
+                    {
+                      "name": "comm",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/init.luau"
+                      ],
+                      "children": [
+                        {
+                          "name": "Client",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Client/init.luau"
+                          ],
+                          "children": [
+                            {
+                              "name": "ClientComm",
+                              "className": "ModuleScript",
+                              "pluginManaged": true,
+                              "filePaths": [
+                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Client/ClientComm.luau"
+                              ]
+                            },
+                            {
+                              "name": "ClientRemoteProperty",
+                              "className": "ModuleScript",
+                              "pluginManaged": true,
+                              "filePaths": [
+                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Client/ClientRemoteProperty.luau"
+                              ]
+                            },
+                            {
+                              "name": "ClientRemoteSignal",
+                              "className": "ModuleScript",
+                              "pluginManaged": true,
+                              "filePaths": [
+                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Client/ClientRemoteSignal.luau"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Server",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Server/init.luau"
+                          ],
+                          "children": [
+                            {
+                              "name": "RemoteProperty",
+                              "className": "ModuleScript",
+                              "pluginManaged": true,
+                              "filePaths": [
+                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Server/RemoteProperty.luau"
+                              ]
+                            },
+                            {
+                              "name": "RemoteSignal",
+                              "className": "ModuleScript",
+                              "pluginManaged": true,
+                              "filePaths": [
+                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Server/RemoteSignal.luau"
+                              ]
+                            },
+                            {
+                              "name": "ServerComm",
+                              "className": "ModuleScript",
+                              "pluginManaged": true,
+                              "filePaths": [
+                                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Server/ServerComm.luau"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Types",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Types.luau"
+                          ]
+                        },
+                        {
+                          "name": "Util",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Util.luau"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Option",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/Option.luau"
+                      ]
+                    },
+                    {
+                      "name": "Promise",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/Promise.luau"
+                      ]
+                    },
+                    {
+                      "name": "Signal",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/Signal.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "sleitnick_knit@1.7.0",
+                  "className": "Folder",
+                  "pluginManaged": true,
+                  "children": [
+                    {
+                      "name": "Comm",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_knit@1.7.0/Comm.luau"
+                      ]
+                    },
+                    {
+                      "name": "knit",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_knit@1.7.0/knit/init.luau"
+                      ],
+                      "children": [
+                        {
+                          "name": "KnitClient",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_knit@1.7.0/knit/KnitClient.luau"
+                          ]
+                        },
+                        {
+                          "name": "KnitServer",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_knit@1.7.0/knit/KnitServer.luau"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Promise",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_knit@1.7.0/Promise.luau"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "sleitnick_option@1.0.5",
+                  "className": "Folder",
+                  "pluginManaged": true,
+                  "children": [
+                    {
+                      "name": "option",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_option@1.0.5/option/init.luau"
+                      ],
+                      "children": [
+                        {
+                          "name": "init.spec",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_option@1.0.5/option/init.spec.luau"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "sleitnick_signal@2.0.3",
+                  "className": "Folder",
+                  "pluginManaged": true,
+                  "children": [
+                    {
+                      "name": "signal",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_signal@2.0.3/signal/init.luau"
+                      ],
+                      "children": [
+                        {
+                          "name": "init.test",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_signal@2.0.3/signal/init.test.luau"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "sleitnick_trove@1.8.0",
+                  "className": "Folder",
+                  "pluginManaged": true,
+                  "children": [
+                    {
+                      "name": "trove",
+                      "className": "ModuleScript",
+                      "pluginManaged": true,
+                      "filePaths": [
+                        "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_trove@1.8.0/trove/init.luau"
+                      ],
+                      "children": [
+                        {
+                          "name": "init.test",
+                          "className": "ModuleScript",
+                          "pluginManaged": true,
+                          "filePaths": [
+                            "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Packages/_Index/sleitnick_trove@1.8.0/trove/init.test.luau"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StarterPlayer",
+      "className": "StarterPlayer",
+      "pluginManaged": true,
+      "children": [
+        {
+          "name": "StarterCharacterScripts",
+          "className": "StarterCharacterScripts",
+          "pluginManaged": true,
+          "children": [
+            {
+              "name": "Animate",
+              "className": "LocalScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Codes/RobloxStudio/DROKIA/TPS/StarterCharacterScripts/Animate.local.luau"
+              ]
+            },
+            {
+              "name": "ClientCore",
+              "className": "Folder",
+              "pluginManaged": true,
+              "children": [
+                {
+                  "name": "Hii",
+                  "className": "LocalScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Codes/RobloxStudio/DROKIA/TPS/StarterCharacterScripts/ClientCore/Hii.local.luau"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
