@@ -19,18 +19,33 @@
               "filePaths": [
                 "c:/Codes/RobloxStudio/DROKIA/TPS/StarterCharacterScripts/Animate.local.luau"
               ]
+            }
+          ]
+        },
+        {
+          "name": "StarterPlayerScripts",
+          "className": "StarterPlayerScripts",
+          "pluginManaged": true,
+          "children": [
+            {
+              "name": "ClientInitialize",
+              "className": "Script",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Codes/RobloxStudio/DROKIA/TPS/StarterPlayerScripts/ClientInitialize.client.luau"
+              ]
             },
             {
-              "name": "ClientCore",
+              "name": "Controllers",
               "className": "Folder",
               "pluginManaged": true,
               "children": [
                 {
-                  "name": "Hii",
-                  "className": "LocalScript",
+                  "name": "InputController",
+                  "className": "ModuleScript",
                   "pluginManaged": true,
                   "filePaths": [
-                    "c:/Codes/RobloxStudio/DROKIA/TPS/StarterCharacterScripts/ClientCore/Hii.local.luau"
+                    "c:/Codes/RobloxStudio/DROKIA/TPS/StarterPlayerScripts/Controllers/InputController.luau"
                   ]
                 }
               ]
@@ -118,6 +133,31 @@
                         }
                       ]
                     }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shared",
+          "className": "Folder",
+          "pluginManaged": true,
+          "children": [
+            {
+              "name": "NetworkService",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Shared/NetworkService/init.luau"
+              ],
+              "children": [
+                {
+                  "name": "RemoteClass",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Codes/RobloxStudio/DROKIA/TPS/ReplicatedStorage/Shared/NetworkService/RemoteClass.luau"
                   ]
                 }
               ]
