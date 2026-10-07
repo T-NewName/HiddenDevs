@@ -1,3 +1,5 @@
+-- Discord ID : TNewName(@po_qo) Roblox ID : TNewName(@Mopv_vqoM)
+
 local GunController = {}
 -------------------------------------------------
 -- SERVICES
