@@ -176,7 +176,7 @@ local function Shoot(tool: Tool, shootTrack)
 	--GunUtil.ShowBullet(tool, hitPos) -- If the game is too laggy, It will be enabled. For better experience. currently, bullet shows from server.
 
 	local onShootEvent = NetworkService:Get("OnShoot", "Gun") -- get shoot remote event
-	onShootEvent:FireServer(tool, hitPos) -- shoot.
+	onShootEvent:FireServer(tool, hitPos) -- To prevent hacking, sending a hit pos instead of the character.
 	tool:SetAttribute("Ammo", tool:GetAttribute("Ammo") - 1) -- reduce the ammo. It will be also decreased from the server.
 end
 
@@ -192,7 +192,7 @@ local function Reload(gun: Tool, reloadTrack: AnimationTrack)
 
 	reloadTrack.Ended:Once(function() -- to prevent memory leak, used :Once() instead of :Connect()
 		local onReloadEvent = NetworkService:Get("OnReload", "Gun") -- get the remote
-		onReloadEvent:FireServer(gun) -- also fill the ammo from the server.
+		onReloadEvent:FireServer(gun) -- also fill the ammo from the server. For prevent hacking.
 		EnableShooting()
 		Reloading = false
 	end)
