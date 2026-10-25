@@ -11,7 +11,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage") -- get "Replicate
 local RunService = game:GetService("RunService") -- get "RunService". used to character aiming every frame.
 local TweenService = game:GetService("TweenService") -- get "TweenService". used to make animation about zooming.
 
-local Trove = require(ReplicatedStorage.Packages.Trove) -- get "Trvoe". To manage memory leaks.
+local Trove = require(ReplicatedStorage.Packages.Trove) -- get "Trvoe". To manage memory leaks. by 'sleitnick'. + this script uses "signal" by 'sleitnick'
 local GunUtil = require(ReplicatedStorage.Utils.GunUtil) -- get "GunUtil". To use gun global functions.
 
 local InputController: typeof(require(script.Parent.Parent.InputController)) -- set type "InputController". It uses "InputAction" thing. Also, since these modules are not loaded, doesn't load right now.
