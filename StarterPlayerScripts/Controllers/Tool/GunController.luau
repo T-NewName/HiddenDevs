@@ -1,28 +1,30 @@
 -- Discord ID : TNewName(@po_qo) Roblox ID : TNewName(@Mopv_vqoM)
 -- Since I'm not an English speaker, there are may a lot of grammer issues.
+-- Used Community Modules : Signal,Trove (by sleitnick)
 
 local GunController = {} -- Create the table. This is this module's main class. also, it follows "Singleton Pattern".
 
 -------------------------------------------------
 -- SERVICES
 -------------------------------------------------
-local Players = game:GetService("Players") -- get "Players" service. Used to get player objects.
-local ReplicatedStorage = game:GetService("ReplicatedStorage") -- get "ReplicatedStorage" service. used to get shared codes, assets or more.
-local RunService = game:GetService("RunService") -- get "RunService". used to character aiming every frame.
-local TweenService = game:GetService("TweenService") -- get "TweenService". used to make animation about zooming.
+local Players = game:GetService("Players") -- Used to get player objects.
+local ReplicatedStorage = game:GetService("ReplicatedStorage") -- used to get shared codes, assets or more.
+local RunService = game:GetService("RunService") -- used to character aiming every frame.
+local TweenService = game:GetService("TweenService") -- used to make animation about zooming.
 
-local Trove = require(ReplicatedStorage.Packages.Trove) -- get "Trvoe". To manage memory leaks. by 'sleitnick'. + this script uses "signal" by 'sleitnick'
-local GunUtil = require(ReplicatedStorage.Utils.GunUtil) -- get "GunUtil". To use gun global functions.
+local Trove = require(ReplicatedStorage.Packages.Trove) -- To manage memory leaks and lifecycles.
+local GunUtil = require(ReplicatedStorage.Utils.GunUtil) -- To use global gun functions.
 
-local InputController: typeof(require(script.Parent.Parent.InputController)) -- set type "InputController". It uses "InputAction" thing. Also, since these modules are not loaded, doesn't load right now.
-local ToolController: typeof(require(script.Parent.ToolController)) -- set type "ToolController". to use tool functions, signals, or more.
-local CharacterController: typeof(require(script.Parent.Parent.CharacterController)) -- set type "CharacterController". to manage character infos easily from StarterPlayerScripts.
-local NetworkService: typeof(require(ReplicatedStorage.Shared.NetworkService)) -- set type "NetworkService". to communicate with client.
+-- My custom modules
+local InputController: typeof(require(script.Parent.Parent.InputController)) -- It uses "InputAction" thing. Also, since these modules are not loaded, doesn't load right now. (only type)
+local ToolController: typeof(require(script.Parent.ToolController)) -- to use tool functions, signals, or more.
+local CharacterController: typeof(require(script.Parent.Parent.CharacterController)) -- to manage character infos easily from StarterPlayerScripts.
+local NetworkService: typeof(require(ReplicatedStorage.Shared.NetworkService)) -- to communicate with client. (Remote Event thingy)
 
 -------------------------------------------------
 -- SETTINGS
 -------------------------------------------------
-local BODY_LINK_INTERVAL = 0.1 -- an interval that sends arms and head aiming to the server
+local BODY_LINK_INTERVAL = 0.1 -- an interval that sends arms and head pos to the server
 
 local ZOOM_INFO = TweenInfo.new(0.23, Enum.EasingStyle.Sine, Enum.EasingDirection.Out) -- zooming tween has these info. To change easily, made as a variable.
 local ZOOM_FOV = 35 -- Zoom fov. When the player zooms, the player's fov will smoothly set to it.
@@ -32,18 +34,18 @@ local ZOOM_SLOWNESS = 11 -- how much the player will be slowed.
 -------------------------------------------------
 -- VARIABLES
 -------------------------------------------------
-local player = Players.LocalPlayer -- get the local player
-local mouse = player:GetMouse() -- get player's mouse
+local player = Players.LocalPlayer
+local mouse = player:GetMouse()
 
-local UnequipTrove = Trove.new() -- There are two troves because they have a different life cycles.
-local AnimTrove = Trove.new() -- this trove is about character rotating, arms rotating or something.
+local UnequipTrove = Trove.new() -- it cares about weapon cycle
+local AnimTrove = Trove.new() -- it cares about character rotating, arms rotating or something.
 
-local Zooming = false -- set a variable that contains zooming info.
-local ZoomTween: Tween = nil -- set a variable that contains current zoomTweening. used to manage fast zoom toggling.
+local Zooming = false
+local ZoomTween: Tween = nil -- used to manage fast zoom toggling. (When the user toggles during tweening then, cancel it)
 
-local Shooting = false -- set a variable that contains "Is the player shooting?". used to shooting loop.
-local CanShoot = true -- set a variable that contains "Can the player shoot?".
-local Reloading = false -- set a variable that contains "Is the player reloading?".
+local Shooting = false -- used to shooting loop.
+local CanShoot = true
+local Reloading = false
 
 -------------------------------------------------
 -- PRIVATE FUNCTIONS
@@ -60,13 +62,13 @@ local function PlayGunAnim(
 ) -- I wanted to use roblox's 'Animate' module to load Running or Idle animations but It doesn't load changed animations well. I used the animations as an 'action' instead.
 	local animTracks: { [string]: AnimationTrack } = {}
 	for name, anim in pairs(animSet) do -- for every animation..
-		animTracks[name] = animator:LoadAnimation(anim) -- load and save it to the animTracks.
+		animTracks[name] = animator:LoadAnimation(anim) -- load it
 	end
 
 	local lastAnimTrack: AnimationTrack? = nil -- save last playing-anim to stop it.
 	local state = CharacterController:GetState() -- It returns the charater's state. (Running and FreeFalling. There's also, "IDLE" state) used to play the current state's animation
 
-	local function PlayAnim(action: string) -- this code was called multiple times, so I made it as a function.
+	local function PlayAnim(action: string) -- multiple calling -> I made it as a function.
 		if animTracks[action] == nil then -- if there's no anim,
 			return -- return
 		end
@@ -82,8 +84,7 @@ local function PlayGunAnim(
 
 	PlayAnim(state) -- play the current state's animation
 
-	trove:Add(function() -- if the animTrove cleaned up,
-		-- On Cleanup
+	trove:Add(function() -- when animation cycle ended,
 		if lastAnimTrack ~= nil then
 			lastAnimTrack:Stop() -- stop the current animation.
 		end
@@ -91,7 +92,7 @@ local function PlayGunAnim(
 
 	trove:Add(CharacterController.onStateChanged:Connect( -- When the player's state changed, (Including IDLE)
 		function(old, new)
-			PlayAnim(new) -- play the new animation.
+			PlayAnim(new) -- play the current state's animation.
 		end
 	))
 end
@@ -125,7 +126,7 @@ local function ZoomOutCamera(humanoid: Humanoid)
 
 	ZoomTween = TweenService:Create(workspace.CurrentCamera, ZOOM_INFO, { FieldOfView = DEAFULT_FOV }) -- create new zooming tween.
 	ZoomTween:Play()
-	humanoid.WalkSpeed += ZOOM_SLOWNESS -- revert the player's speed
+	humanoid.WalkSpeed += ZOOM_SLOWNESS
 end
 
 ------- Others --------
@@ -140,11 +141,11 @@ end
 
 local function Shoot(tool: Tool, shootTrack) -- shoot.
 	shootTrack.Priority = Enum.AnimationPriority.Action -- Manually set the shoot animation's priority.
-	shootTrack.Looped = false -- disable looped manually
-	shootTrack:Play(0) -- play the anim. to remove transition, give 0 at the parameter
+	shootTrack.Looped = false
+	shootTrack:Play(0) -- play the anim. To remove transition, give 0 at the parameter (removing fade time)
 
-	local hitPos = mouse.Hit.Position -- get mouse position
-	--GunUtil.ShowBullet(tool, hitPos) -- If the game is too laggy, It will be enabled. For better experience. currently, bullet shows from server.
+	local hitPos = mouse.Hit.Position
+	--GunUtil.ShowBullet(tool, hitPos) -- Bullets appear on the server now, but this code makes them appear on the client! (Disabled it because I didn't want to use too many remote events)
 
 	local onShootEvent = NetworkService:Get("OnShoot", "Gun") -- get shoot remote event
 	onShootEvent:FireServer(tool, hitPos) -- To prevent hacking, sending a hit pos instead of the character.
@@ -152,47 +153,47 @@ local function Shoot(tool: Tool, shootTrack) -- shoot.
 end
 
 local function Reload(gun: Tool, reloadTrack: AnimationTrack) -- reload
-	if Reloading then -- if reloading now,
+	if Reloading then -- if reloading now, (Prevent reloading while reloading)
 		return -- skip
 	end
-	Reloading = true -- set reloading to true.
-	DisableShooting() -- disable shooting
-	reloadTrack.Priority = Enum.AnimationPriority.Action2 -- Manually set the shoot animation's priority.
-	reloadTrack.Looped = false -- disable looping manually
-	reloadTrack:Play(0) -- play the anim. To remove transition, give 0 at the parameter.
+	Reloading = true
+	DisableShooting()
+	reloadTrack.Priority = Enum.AnimationPriority.Action2
+	reloadTrack.Looped = false
+	reloadTrack:Play(0)
 
-	reloadTrack.Ended:Once(
-		function() -- to prevent memory leak, used :Once() instead of :Connect() / When reloading ended,
+	reloadTrack.Ended:Once( -- to prevent memory leak, used :Once() instead of :Connect() / when reloading anim ended, fill ammos
+		function() -- When reloading ended,
 			local onReloadEvent = NetworkService:Get("OnReload", "Gun") -- get the remote
 			local maxAmmo = GunUtil.GetInfo(gun).MaxAmmo -- get the gun's max ammo
-			gun:SetAttribute("Ammo", maxAmmo) -- refill the ammo
-			onReloadEvent:FireServer(gun) -- also fill the ammo from the server. For prevent hacking.
-			EnableShooting() -- enable shooting
-			Reloading = false -- stop reloading
+			gun:SetAttribute("Ammo", maxAmmo) -- refill the ammo (fast syncing for client)
+			onReloadEvent:FireServer(gun) -- also fill the ammo from the server.
+			EnableShooting()
+			Reloading = false
 		end
 	)
 end
 
 --- Character Follows The Cursor.
-local function moveBodyToCursor(character: Model, trove: typeof(Trove.new())) -- this function rotates the humanoidRootPart
+local function moveBodyToCursor(character: Model, trove: typeof(Trove.new())) -- this function rotates the humanoidRootPart to aiming position
 	local hit = mouse.Hit -- get world mouse CFrame
 	local hitPos = hit.Position -- get the mouse's hit position
 	local humanoidRootPart: Part? = character:FindFirstChild("HumanoidRootPart") -- get character's humanoidRootPart
-	if humanoidRootPart == nil then -- if failed to find the HumanoidRootPart,
-		return -- return
+	if humanoidRootPart == nil then -- if failed to find the HumanoidRootPart, return (error preventeing)
+		return
 	end
 	-- Torso Moving
-	local characterPos = humanoidRootPart.Position -- get character's position
+	local characterPos = humanoidRootPart.Position
 	local flatTargetPos = Vector3.new(hitPos.X, characterPos.Y, hitPos.Z) -- removed y position.
 	local LookAt = CFrame.lookAt(characterPos, flatTargetPos) -- get the final CFrame
-	local humanoid = CharacterController:GetHumanoid() -- get the humanoid.
+	local humanoid = CharacterController:GetHumanoid()
 
 	if humanoid.Health > 0 and humanoid.SeatPart == nil then -- If can rotate the humanoidRootpart,
-		humanoidRootPart:PivotTo(LookAt) -- Move the player
+		humanoidRootPart:PivotTo(LookAt) -- make the character look at the cursor
 	end
 
 	-- Head and arms Moving
-	GunUtil.BodyLookThere(character, hitPos, trove) -- head and arms movement doesn't appear to other clients.
+	GunUtil.BodyLookThere(character, hitPos, trove) -- this method also used by the server. That's why that it is not the local function.
 end
 
 ------------ GUN MAIN -------------
@@ -201,30 +202,30 @@ end
 local function LinkAiming(humanoid: Humanoid)
 	local AimInput = InputController:GetAction("Gun", "Aim") -- get the aiming input.
 
-	UnequipTrove:Add(AimInput.Pressed:Connect(function() -- when the InputAction is pressed,
-		ZoomInCamera(humanoid) -- zoom in the camera
+	UnequipTrove:Add(AimInput.Pressed:Connect(function() -- on aiming input pressed, zoom in the camera (start holding)
+		ZoomInCamera(humanoid)
 	end))
-	UnequipTrove:Add(AimInput.Released:Connect(function() -- when the InputAction is released,
-		ZoomOutCamera(humanoid) -- zoom out the camera
+	UnequipTrove:Add(AimInput.Released:Connect(function() -- on aiming input released, zoom in the camera (stop holding)
+		ZoomOutCamera(humanoid)
 	end))
 end
 
 --- Enable Shooting on gun equip
 local function LinkShooting(tool: Tool, gunInfo: typeof(GunUtil.GetInfo()), animator: Animator)
-	Shooting = false -- set state to false
-	local ShootInput = InputController:GetAction("Gun", "Shoot") -- get the shooting input
-	UnequipTrove:Add(ShootInput.Pressed:Connect(function() -- on Shoot Input pressed
+	Shooting = false
+	local ShootInput = InputController:GetAction("Gun", "Shoot")
+	UnequipTrove:Add(ShootInput.Pressed:Connect(function() -- on Shoot Input pressed (start holding)
 		if CanShoot then -- if the player can shoot
 			Shooting = true -- start shooting
 		end
 	end))
-	UnequipTrove:Add(ShootInput.Released:Connect(function() -- on shoot input released
+	UnequipTrove:Add(ShootInput.Released:Connect(function() -- on shoot input released (stop holding)
 		Shooting = false -- stop shooting
 	end))
 
 	-- if there's no "ammo" attribute, reset it
-	if tool:GetAttribute("Ammo") == nil then -- if failed to find the ammo,
-		tool:SetAttribute("Ammo", gunInfo.MaxAmmo) -- set to max value. (Server also has this code)
+	if tool:GetAttribute("Ammo") == nil then -- if failed to find the ammo attribute,
+		tool:SetAttribute("Ammo", gunInfo.MaxAmmo) -- fill the ammo. (While shooting, server also fills the ammo when there's no "Ammo" attribute. So don't care about that the client only has "Ammo" attribute)
 	end
 
 	-- shoot loop
@@ -232,11 +233,11 @@ local function LinkShooting(tool: Tool, gunInfo: typeof(GunUtil.GetInfo()), anim
 		local shootAnim = GunUtil.GetAnimationSet(tool).Shoot -- get a shooting animation. It is also used in server so its code is shared.
 		local shootTrack = animator:LoadAnimation(shootAnim) -- load the anim
 
-		while true do -- shooting loop. To support holding mechanic, used 'while'.
+		while true do -- shooting loop. To support holding mechanic, used a loop. Every interval, if the player holding 'shoot input', shoot.
 			task.wait() -- wait for a bit. To prevent error.
 			if Shooting and CanShoot and tool:GetAttribute("Ammo") > 0 then -- If the player can shoot
-				Shoot(tool, shootTrack) -- shoot
-				task.wait(gunInfo.FireRate) -- wait the fire rate.
+				Shoot(tool, shootTrack)
+				task.wait(gunInfo.FireRate) -- weapon cooldown
 			end
 		end
 	end))
@@ -244,11 +245,12 @@ end
 
 --- Enable Reloading on gun equip
 local function LinkReload(tool: Tool, animator: Animator)
-	local ReloadInput = InputController:GetAction("Gun", "Reload") -- get the reloading input
-	local reloadAnim = GunUtil.GetAnimationSet(tool).Reload -- get the reloading animation
-	local reloadTrack = animator:LoadAnimation(reloadAnim) -- load it
+	-- Get input, anim and load the anim.
+	local ReloadInput = InputController:GetAction("Gun", "Reload")
+	local reloadAnim = GunUtil.GetAnimationSet(tool).reload
+	local reloadTrack = animator:LoadAnimation(reloadAnim)
 
-	UnequipTrove:Add(ReloadInput.Released:Connect(function() -- on released,
+	UnequipTrove:Add(ReloadInput.Released:Connect(function() -- on reload input activated
 		Reload(tool, reloadTrack) -- reload.
 	end))
 end
@@ -258,11 +260,11 @@ local function LinkBodyAiming(tool: Tool)
 	-- Set up
 	local AttachEvent = NetworkService:Get("Attach", "Gun") -- get the remote. this remote attachs the weapon.
 
-	AnimTrove:Clean() -- Before start to resume animating, cleanup animTrove
+	AnimTrove:Clean() -- Before start to resume animating, stop all gun/weapon anims
 	AttachEvent:FireServer(tool) -- attach the gun to the arm.
 
 	-- Character Rotating
-	local character = CharacterController:GetCharacter() -- get the player's character
+	local character = CharacterController:GetCharacter()
 	RunService:BindToRenderStep("CharacterRotation", Enum.RenderPriority.Character.Value, function() -- every frame,
 		moveBodyToCursor(character, AnimTrove) -- rotate the character.
 	end)
@@ -285,16 +287,16 @@ end
 
 --- On Gun Equip
 local function OnGunEquip(tool: Tool)
-	if not tool:HasTag("gun") then -- if the tool is not a gun
-		return -- return
+	if not tool:HasTag("gun") then -- if the weapon is not a gun then return
+		return
 	end
 
-	AnimTrove:Clean() -- stop play current gun's animations.
+	AnimTrove:Clean() -- stop playing gun animations.
 
-	InputController:EnableContext("Gun") -- Enable the gun's inputs.
-	local humanoid = CharacterController:GetHumanoid() -- get player's humanoid
-	local animator = CharacterController:GetAnimator() -- get player's animator
-	local gunInfo = GunUtil.GetInfo(tool) -- get the gun's info. Like damage, fireRate and more.
+	InputController:EnableContext("Gun") -- Enable the gun inputs.
+	local humanoid = CharacterController:GetHumanoid()
+	local animator = CharacterController:GetAnimator()
+	local gunInfo = GunUtil.GetInfo(tool) -- get the gun info. Like damage, fireRate and more.
 
 	-- Aimings
 	LinkAiming(humanoid)
@@ -311,26 +313,27 @@ local function OnGunEquip(tool: Tool)
 	-- Clean trove on die
 	local humanoid = CharacterController:GetHumanoid() -- get player's humanoid
 	AnimTrove:Add(humanoid.Died:Connect(function() -- On the player died,
-		AnimTrove:Clean() -- clean the anim trove.
+		AnimTrove:Clean() -- stop playing gun animations
+		-- There's no cleaning unequip trove because.. IDK it works well without it
 	end))
 
 	-- Animations
 	local anims = GunUtil.GetAnimationSet(tool) -- get gun animations
-	local animator = humanoid:FindFirstChildOfClass("Animator") -- get the player's animator
+	local animator = humanoid:FindFirstChildOfClass("Animator")
 	PlayGunAnim(humanoid, animator, anims, AnimTrove) -- play the gun movement animations.
 end
 
 --- On Gun Unequip
 local function OnGunUnequip(tool: Tool)
-	if not tool:HasTag("gun") then -- if the tool is not a gun
-		return -- return
+	if not tool:HasTag("gun") then -- if the tool is not a gun then return
+		return
 	end
 
-	UnequipTrove:Clean() -- clena the trove
-	AnimTrove:Clean() -- clean the trove
+	UnequipTrove:Clean() -- end the gun life cycle
+	AnimTrove:Clean() -- stop the animation
 
 	InputController:DisableContext("Gun") -- disable gun inputs
-	local UnattachEvent = NetworkService:Get("Unattach", "Weapon") -- get the remote, "Unattach" from the "Weapon" folder
+	local UnattachEvent = NetworkService:Get("Unattach", "Weapon")
 
 	UnattachEvent:FireServer() -- unattach the gun from the player
 	RunService:UnbindFromRenderStep("CharacterRotation") -- stop rotating the player
@@ -354,7 +357,7 @@ function GunController:Start()
 	-- On Gun Equip
 	ToolController.OnEquip:Connect(function(tool) -- when the tool equipped
 		if tool:HasTag("gun") then -- if the tool is the gun
-			OnGunEquip(tool) -- call the function.
+			OnGunEquip(tool)
 		end
 	end)
 
@@ -366,8 +369,8 @@ function GunController:Start()
 	end)
 
 	-- On Kill
-	local OnKillEvent = NetworkService:Get("OnKill", "Gun") -- get "OnKill" Remote event from the "Gun" folder.
-	OnKillEvent.OnClientEvent:Connect(function() -- when OnKill event received from the server...
+	local OnKillEvent = NetworkService:Get("OnKill", "Gun")
+	OnKillEvent.OnClientEvent:Connect(function() -- when the player killed someone,
 		ReplicatedStorage.Sounds.Combat.GunKill:Play() -- play the kill sound
 	end)
 end
